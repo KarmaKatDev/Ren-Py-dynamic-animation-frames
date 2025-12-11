@@ -1,6 +1,4 @@
-﻿
-##For this to work we'll have to create a screen that holds our animations.
-# The animation will loop continuously in the background.
+﻿# The animation will loop continuously in the background.
 screen loopingMovie( anim_name ):
 
     zorder 0
@@ -21,7 +19,7 @@ screen loopingMovie( anim_name ):
     # dialogue and clicks still reach the screens above (say window).
 
 
-## Python code to dynamically generate animations from frame folders
+## dynamically generate animations from frame folders
 init python:
     import os
     import re
@@ -144,4 +142,5 @@ init python:
             full = os.path.join(images_dir, d)
             if os.path.isdir(full):
                 create_animation_from_folder(d)
+
 
