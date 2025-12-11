@@ -18,11 +18,11 @@ game/
 ├── DynamicLoops.rpy        # Animation system (screen + Python code)
 ├── script.rpy              # Your main script (uses animations)
 └── images/
-    ├── cube_fast/          # Animation folder
+    ├── animation 1/          # Animation folder (can be any name)
     │   ├── f1.png
     │   ├── f2.png
     │   └── ...
-    └── cube_slow/          # Another animation folder
+    └── animation 2/          # Another animation folder
         ├── f1.png
         ├── f2.png
         └── ...
