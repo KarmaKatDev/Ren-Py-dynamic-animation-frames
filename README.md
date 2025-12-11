@@ -19,7 +19,7 @@ game/
 ├── script.rpy              # Your main script (uses animations)
 └── images/
     ├── animation 1/          # Animation folder (can be any name)
-    │   ├── f1.png
+    │   ├── f1.png            # does not literally have to be f1, f2, etc. it reads the frames in alphabetical order
     │   ├── f2.png
     │   └── ...
     └── animation 2/          # Another animation folder
